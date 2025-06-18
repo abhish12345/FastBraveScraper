@@ -27,7 +27,7 @@ It uses `requests` + `BeautifulSoup` for fast scraping and supports querying up 
 1️⃣ Clone this repository  
 ```bash
 https://github.com/abhish12345/FastBraveScraper
-cd bravenewsapi
+cd FastBraveScraper
 pip install -r requirements.txt
 python run_server.py
 
