@@ -29,3 +29,4 @@ def read_root():
 def get_news(query: str = Query(..., description="Search term to fetch Brave News")):
     data = fetch_news(query)
     return {"query": query, "count": len(data), "results": data}
+
