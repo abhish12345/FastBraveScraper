@@ -31,3 +31,11 @@ cd FastBraveScraper
 pip install -r requirements.txt
 python run_server.py
 
+## Command to build docker image
+docker build -t fastapi-scraper .
+
+## command to run docker container
+docker run -p 8000:8000 fastapi-scraper
+
+## command to run container in detached mode
+docker run -d -p 8000:8000 fastapi-scraper
